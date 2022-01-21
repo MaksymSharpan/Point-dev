@@ -1,26 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Point</title>
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Raleway:wght@400;600;700&family=Sulphur+Point:wght@700&display=swap"
+      rel="stylesheet" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Project</title>
-    <link rel="stylesheet" href="./css/style.min.css">
-</head>
-
-<body class="main__body">
+  <body class="main__body">
     <!-- Header -->
-    
+    <header id="header">
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo"><a href="">point</a></div>
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="#" class="menu__item-link" data-scroll>О приложении</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__item-link" data-scroll>Преимущества</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__item-link" data-scroll>Наши психологи</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__item-link" data-scroll
+              >Скачать приложение</a
+            >
+          </li>
+        </ul>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
 
     <!-- Main Page -->
-    <main></main>
+    <main>
+      <!-- Hero -->
+      <section class="section__hero">
+  <div class="container">
+    <div class="hero">
+      <div class="hero__item">
+        <h1 class="hero__item-title">
+          Связь с психологом, <span>когда она необходима</span>
+          <!-- &nbsp -->
+        </h1>
+        <p class="hero__item-text">
+          Аудио- и видеоконсультации в одном удобном приложении
+        </p>
+        <div class="hero__item-buttons">
+          <button class="hero__btn">Выбрать специалиста</button>
+          <button class="hero__btn">Попробовать бесплатно</button>
+        </div>
+      </div>
+      <!-- <div class="hero__item">
+        <div class="hero__item-background"></div>
+      </div> -->
+      <div class="hero__item">
+        <img class="hero__img" src="./img/hero-video.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
 
     <!-- Footer -->
     
+    <div class="coding__by">
+      <p>coding by Maksym Sharpan</p>
+    </div>
+  </body>
 
-</body>
-
-<script src="./js/scripts.min.js"></script>
-
+  <script src="./js/scripts.min.js"></script>
 </html>
